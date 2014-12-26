@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42FDDCC1A4D22DE004F7831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FDDCB1A4D22DE004F7831 /* main.m */; };
+		C42FDDCF1A4D22DE004F7831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FDDCE1A4D22DE004F7831 /* AppDelegate.m */; };
+		C42FDDD21A4D22DE004F7831 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FDDD11A4D22DE004F7831 /* GameScene.m */; };
+		C42FDDD41A4D22DE004F7831 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C42FDDD31A4D22DE004F7831 /* GameScene.sks */; };
+		C42FDDD71A4D22DE004F7831 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FDDD61A4D22DE004F7831 /* GameViewController.m */; };
+		C42FDDDA1A4D22DE004F7831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42FDDD81A4D22DE004F7831 /* Main.storyboard */; };
+		C42FDDDC1A4D22DE004F7831 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42FDDDB1A4D22DE004F7831 /* Images.xcassets */; };
+		C42FDDDF1A4D22DE004F7831 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42FDDDD1A4D22DE004F7831 /* LaunchScreen.xib */; };
+		C42FDDEB1A4D22DE004F7831 /* FirstSpritKitGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FDDEA1A4D22DE004F7831 /* FirstSpritKitGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C42FDDE51A4D22DE004F7831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42FDDBE1A4D22DE004F7831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42FDDC51A4D22DE004F7831;
+			remoteInfo = FirstSpritKitGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42FDDC61A4D22DE004F7831 /* FirstSpritKitGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSpritKitGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42FDDCA1A4D22DE004F7831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42FDDCB1A4D22DE004F7831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C42FDDCD1A4D22DE004F7831 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C42FDDCE1A4D22DE004F7831 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C42FDDD01A4D22DE004F7831 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C42FDDD11A4D22DE004F7831 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		C42FDDD31A4D22DE004F7831 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C42FDDD51A4D22DE004F7831 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C42FDDD61A4D22DE004F7831 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C42FDDD91A4D22DE004F7831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C42FDDDB1A4D22DE004F7831 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C42FDDDE1A4D22DE004F7831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C42FDDE41A4D22DE004F7831 /* FirstSpritKitGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstSpritKitGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42FDDE91A4D22DE004F7831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42FDDEA1A4D22DE004F7831 /* FirstSpritKitGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstSpritKitGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42FDDC31A4D22DE004F7831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42FDDE11A4D22DE004F7831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42FDDBD1A4D22DE004F7831 = {
+			isa = PBXGroup;
+			children = (
+				C42FDDC81A4D22DE004F7831 /* FirstSpritKitGame */,
+				C42FDDE71A4D22DE004F7831 /* FirstSpritKitGameTests */,
+				C42FDDC71A4D22DE004F7831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C42FDDC71A4D22DE004F7831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42FDDC61A4D22DE004F7831 /* FirstSpritKitGame.app */,
+				C42FDDE41A4D22DE004F7831 /* FirstSpritKitGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42FDDC81A4D22DE004F7831 /* FirstSpritKitGame */ = {
+			isa = PBXGroup;
+			children = (
+				C42FDDCD1A4D22DE004F7831 /* AppDelegate.h */,
+				C42FDDCE1A4D22DE004F7831 /* AppDelegate.m */,
+				C42FDDD01A4D22DE004F7831 /* GameScene.h */,
+				C42FDDD11A4D22DE004F7831 /* GameScene.m */,
+				C42FDDD31A4D22DE004F7831 /* GameScene.sks */,
+				C42FDDD51A4D22DE004F7831 /* GameViewController.h */,
+				C42FDDD61A4D22DE004F7831 /* GameViewController.m */,
+				C42FDDD81A4D22DE004F7831 /* Main.storyboard */,
+				C42FDDDB1A4D22DE004F7831 /* Images.xcassets */,
+				C42FDDDD1A4D22DE004F7831 /* LaunchScreen.xib */,
+				C42FDDC91A4D22DE004F7831 /* Supporting Files */,
+			);
+			path = FirstSpritKitGame;
+			sourceTree = "<group>";
+		};
+		C42FDDC91A4D22DE004F7831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C42FDDCA1A4D22DE004F7831 /* Info.plist */,
+				C42FDDCB1A4D22DE004F7831 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42FDDE71A4D22DE004F7831 /* FirstSpritKitGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C42FDDEA1A4D22DE004F7831 /* FirstSpritKitGameTests.m */,
+				C42FDDE81A4D22DE004F7831 /* Supporting Files */,
+			);
+			path = FirstSpritKitGameTests;
+			sourceTree = "<group>";
+		};
+		C42FDDE81A4D22DE004F7831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C42FDDE91A4D22DE004F7831 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42FDDC51A4D22DE004F7831 /* FirstSpritKitGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42FDDEE1A4D22DE004F7831 /* Build configuration list for PBXNativeTarget "FirstSpritKitGame" */;
+			buildPhases = (
+				C42FDDC21A4D22DE004F7831 /* Sources */,
+				C42FDDC31A4D22DE004F7831 /* Frameworks */,
+				C42FDDC41A4D22DE004F7831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstSpritKitGame;
+			productName = FirstSpritKitGame;
+			productReference = C42FDDC61A4D22DE004F7831 /* FirstSpritKitGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C42FDDE31A4D22DE004F7831 /* FirstSpritKitGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42FDDF11A4D22DE004F7831 /* Build configuration list for PBXNativeTarget "FirstSpritKitGameTests" */;
+			buildPhases = (
+				C42FDDE01A4D22DE004F7831 /* Sources */,
+				C42FDDE11A4D22DE004F7831 /* Frameworks */,
+				C42FDDE21A4D22DE004F7831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42FDDE61A4D22DE004F7831 /* PBXTargetDependency */,
+			);
+			name = FirstSpritKitGameTests;
+			productName = FirstSpritKitGameTests;
+			productReference = C42FDDE41A4D22DE004F7831 /* FirstSpritKitGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42FDDBE1A4D22DE004F7831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bo Guan";
+				TargetAttributes = {
+					C42FDDC51A4D22DE004F7831 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C42FDDE31A4D22DE004F7831 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C42FDDC51A4D22DE004F7831;
+					};
+				};
+			};
+			buildConfigurationList = C42FDDC11A4D22DE004F7831 /* Build configuration list for PBXProject "FirstSpritKitGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42FDDBD1A4D22DE004F7831;
+			productRefGroup = C42FDDC71A4D22DE004F7831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42FDDC51A4D22DE004F7831 /* FirstSpritKitGame */,
+				C42FDDE31A4D22DE004F7831 /* FirstSpritKitGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42FDDC41A4D22DE004F7831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42FDDDF1A4D22DE004F7831 /* LaunchScreen.xib in Resources */,
+				C42FDDDC1A4D22DE004F7831 /* Images.xcassets in Resources */,
+				C42FDDD41A4D22DE004F7831 /* GameScene.sks in Resources */,
+				C42FDDDA1A4D22DE004F7831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42FDDE21A4D22DE004F7831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42FDDC21A4D22DE004F7831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42FDDD71A4D22DE004F7831 /* GameViewController.m in Sources */,
+				C42FDDCF1A4D22DE004F7831 /* AppDelegate.m in Sources */,
+				C42FDDD21A4D22DE004F7831 /* GameScene.m in Sources */,
+				C42FDDCC1A4D22DE004F7831 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42FDDE01A4D22DE004F7831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42FDDEB1A4D22DE004F7831 /* FirstSpritKitGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42FDDE61A4D22DE004F7831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42FDDC51A4D22DE004F7831 /* FirstSpritKitGame */;
+			targetProxy = C42FDDE51A4D22DE004F7831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C42FDDD81A4D22DE004F7831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42FDDD91A4D22DE004F7831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C42FDDDD1A4D22DE004F7831 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42FDDDE1A4D22DE004F7831 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42FDDEC1A4D22DE004F7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C42FDDED1A4D22DE004F7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42FDDEF1A4D22DE004F7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirstSpritKitGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C42FDDF01A4D22DE004F7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirstSpritKitGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C42FDDF21A4D22DE004F7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FirstSpritKitGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstSpritKitGame.app/FirstSpritKitGame";
+			};
+			name = Debug;
+		};
+		C42FDDF31A4D22DE004F7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FirstSpritKitGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstSpritKitGame.app/FirstSpritKitGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42FDDC11A4D22DE004F7831 /* Build configuration list for PBXProject "FirstSpritKitGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42FDDEC1A4D22DE004F7831 /* Debug */,
+				C42FDDED1A4D22DE004F7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42FDDEE1A4D22DE004F7831 /* Build configuration list for PBXNativeTarget "FirstSpritKitGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42FDDEF1A4D22DE004F7831 /* Debug */,
+				C42FDDF01A4D22DE004F7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C42FDDF11A4D22DE004F7831 /* Build configuration list for PBXNativeTarget "FirstSpritKitGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42FDDF21A4D22DE004F7831 /* Debug */,
+				C42FDDF31A4D22DE004F7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42FDDBE1A4D22DE004F7831 /* Project object */;
+}
