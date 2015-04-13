@@ -30,24 +30,18 @@
 
 @implementation GameViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+// - This is the first method where we have the correct bounds for the device and is called whenever the view controller is changing the display of the view (like device orientation, view loaded) or the UIView is marked as needing a layout
 
-    // Configure the view.
-    SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
-    /* Sprite Kit applies additional optimizations to improve rendering performance */
-    skView.ignoresSiblingOrder = YES;
+-(void)viewWillLayoutSubviews{
     
-    // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
+    [super viewWillLayoutSubviews];
     
-    // Present the scene.
-    [skView presentScene:scene];
+    [self setupGameWithView:(SKView *)self.view];
+    
+    
 }
+
+
 
 - (BOOL)shouldAutorotate
 {
@@ -71,6 +65,30 @@
 
 - (BOOL)prefersStatusBarHidden {
     return YES;
+}
+
+-(void)setupGameWithView:(SKView *) skView{
+
+        
+        //sceneWithSize calls the method initWithSize
+        GameScene *myScene = [GameScene sceneWithSize:skView.bounds.size];
+        myScene.scaleMode = SKSceneScaleModeAspectFill;
+        myScene.thisGameViewController = self;
+        
+        [skView presentScene:myScene];
+        
+    
+    
+}
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    
+    if(buttonIndex != alertView.cancelButtonIndex){
+        
+        [self setupGameWithView:(SKView *)self.view];
+        
+    }
+    
 }
 
 @end

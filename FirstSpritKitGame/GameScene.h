@@ -10,4 +10,6 @@
 
 @interface GameScene : SKScene
 
+@property(nonatomic)UIViewController *thisGameViewController;
+
 @end
